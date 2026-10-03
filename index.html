@@ -9,7 +9,12 @@
 *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--light);color:var(--text)}
 .{position:fixed;top:0;left:0;right:0;z-index:99;background:#fff3cd;color:#684f00;text-align:center;padding:7px;font-size:12px;font-weight:700}
 .login{min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#06152f,#0d6efd);padding:25px}
-.login-card{width:420px;max-width:100%;background:white;border-radius:24px;padding:35px;box-shadow:0 25px 70px #00194d55}
+.login-card{width:420px;max-width:100%;background:white;border-radius:24px;padding:35px;box-shadow:0 25px 70px #00194d55}.logo-img{
+  width:180px;
+  height:auto;
+  display:block;
+  margin:0 auto;
+}
 .logo{font-size:25px;font-weight:900;color:var(--navy);letter-spacing:.5px}.logo span{color:var(--blue)}
 .login-card h1{margin:35px 0 8px}.login-card p{color:var(--muted)}
 input,select{width:100%;padding:14px;margin:7px 0 14px;border:1px solid var(--border);border-radius:11px;font-size:15px}
@@ -20,12 +25,7 @@ input,select{width:100%;padding:14px;margin:7px 0 14px;border:1px solid var(--bo
 .grid{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin-top:20px}.panel h3{margin-top:0}.transaction{display:flex;justify-content:space-between;padding:15px 0;border-bottom:1px solid var(--border)}.transaction:last-child{border-bottom:0}.tx-left{display:flex;gap:12px;align-items:center}.tx-icon{width:40px;height:40px;border-radius:12px;background:#edf4ff;display:grid;place-items:center}.muted{color:var(--muted);font-size:13px}.profile{display:grid;grid-template-columns:180px 1fr;gap:30px}.big-avatar{width:150px;height:150px;border-radius:50%;background:linear-gradient(135deg,#dbeafe,#bfdbfe);display:grid;place-items:center;font-size:42px;font-weight:900;color:var(--blue)}.notice{padding:14px;border-radius:12px;background:#eff6ff;margin-bottom:10px}.hide{display:none}
 @media(max-width:850px){.sidebar{width:70px;padding:20px 8px}.sidebar .logo{font-size:0}.sidebar .logo:after{content:"CB";font-size:22px}.nav button{font-size:0;text-align:center}.nav button:first-letter{font-size:18px}.main{margin-left:70px;padding:65px 16px 25px}.cards,.grid{grid-template-columns:1fr}.profile{grid-template-columns:1fr}.top{gap:10px}.amount{font-size:29px}}
 .logo{font-size:25px;font-weight:900;color:var(--navy);letter-spacing:.5px}.logo span{color:var(--blue)}
-.logo-img{
-  width:180px;
-  height:auto;
-  display:block;
-  margin:0 auto;
-}
+.
 .quick-actions{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:14px 0 18px}
 .action{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:8px;font-weight:800;cursor:pointer;color:var(--text)}
 .action strong{width:82px;height:82px;border-radius:50%;display:grid;place-items:center;font-size:27px;box-shadow:0 8px 22px #00000012}
